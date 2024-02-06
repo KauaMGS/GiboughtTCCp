@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_add.xml" value="0.22" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_add_account.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_add_goal.xml" value="0.25" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_banner.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_edit_card_bank.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_edit_goal.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_goal.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_graphics.xml" value="0.21221864951768488" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_noti_factivity.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_notification.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_select_account.xml" value="0.18" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/dropdown_item_act.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/graph_dialog.xml" value="0.12001811594202899" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/listbk_account.xml" value="0.16422287390029325" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/listbk_account_list.xml" value="0.22" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/listbk_goal_list.xml" value="0.18" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/listbkgo_account.xml" value="0.22" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/simple_item_dark.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/simple_spinner_white.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/spinner_act.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/Gibought/app/src/main/res/layout/spinner_item_account.xml" value="0.10280797101449275" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/drawable/bg_m.xml" value="0.1125" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/drawable/bg_round.xml" value="0.1015625" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/drawable/select_engine.xml" value="0.1125" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/drawable/select_graphics.xml" value="0.1125" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/drawable/select_home.xml" value="0.1125" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/drawable/select_ic_notifications.xml" value="0.1125" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_add.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_add_goal.xml" value="0.16" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_edit_card_bank.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_edit_goal.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_goal.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_graphics.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/activity_home.xml" value="0.14" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/listbk_goal_list.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/listbkgo_account.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AndroidStudioProjects/gibought/app/src/main/res/layout/progress_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/AndroidStudio/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/AndroidStudio/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1" />
+        <entry key="..\:/Users/AndroidStudio/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gibought</string>
+    <!--Banner-->
+    <string name="about_app_title">Oque é o aplicativo?</string>
+    <string name="about_app_text">
+       Gibought é um organizador de dinheiro, no qual você pode gerenciar facilmente suas despesas e ganhos…
+    </string>
+    <string name="features_app_title">O que o Gibought faz?:</string>
+    <string name="features_app_text">
+         &#160;- Faz a média semanal, mensal e anual do seu dinheiro\n
+         - Gera graficos de suas adições de ganhos e gastos\n
+         - Facilita a Organização das contas criadas pelo usuário
+    </string>
+    <string name="deluxe_app_title">Beneficios da Versão Deluxe:</string>
+    <string name="deluxe_app_text">
+         &#160;- Remover anuncios\n
+         - Libera os graficos Mensal e anual\n
+         - retire limites da contad \n
+    </string>
+    <string name="benefits_app_title">Vantagens do app:</string>
+    <string name="benefits_app_text">
+        Utilizando o Gibought você terá um controle detalhado de seus ganhos e gastos
+        através de ilustrações e gráficos, o que irá ajudar na sua administração do
+        seu dinheiro.
+    </string>
+    <string name="skip">Pular ></string>
+    <string name="next">Prox</string>
+    <string name="finish">Iniciar</string>
+    <!--End Banner-->
+</resources>

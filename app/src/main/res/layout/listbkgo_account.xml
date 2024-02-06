@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lba"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/current_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorBackgroundBanner"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp"
+                >
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imageGoalItem"
+                    android:layout_width="95dp"
+                    android:layout_height="79dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/imageaccount"
+                    android:src="@drawable/nonebank"
+                    app:layout_constraintBottom_toBottomOf="@+id/etgoNameItem"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etgoNameItem"
+                    app:layout_constraintVertical_bias="0.65" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@color/colorDarkGreen"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="6"
+                       android:layout_marginStart="5dp"
+                       android:layout_marginEnd="5dp"
+                       >
+                    <TextView
+                        android:id="@+id/resultTXT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/colorWhite"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:text="Você tem x Ainda falta y"
+                        android:textSize="18sp" />
+                   </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/editgoCard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/imageaccount"
+                        android:src="@drawable/ic_edit_add"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etgoNameItem"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeWidth="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.525"
+                    app:layout_constraintStart_toEndOf="@+id/imageGoalItem"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                    app:layout_constraintVertical_bias="0.092">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/goalNameItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:text="@string/account"
+                        android:textColor="@color/colorFooter"
+                        android:textSize="30sp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/goalValueItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:text="@string/money"
+                        android:textColor="@color/colorFooter"
+                        android:textSize="30sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/Id_go"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etgoNameItem"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginStart="20sp"
+                        android:layout_marginEnd="20sp"
+                        >
+                        <TextView
+                            android:id="@+id/actTXT"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:text="Conta:"
+                            />
+                        <TextView
+                            android:id="@+id/actTxtValue"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:text="Conta:"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/LinearProgressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        >
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            >
+
+                            <ProgressBar
+                                android:id="@+id/progressGoal"
+                                android:layout_margin="2dp"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:background="@color/colorDarkGrey"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                >
+                                <TextView
+                                    android:id="@+id/progressTextGoal"
+                                    android:text="@string/not_have_goal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:gravity="center"
+                                    />
+                            </RelativeLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

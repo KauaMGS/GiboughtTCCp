@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--MainTheme-->
+    <style name="Theme.Gibought" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorDarGreen</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorDarkGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--End MainTheme-->
+    <!-- SplashActivity -->
+    <style name="SplashActivity" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrima</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrima</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrima</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--End SplashActivity-->
+    <!--BackActivity-->
+    <!--End BackActivity-->
+
+    <!--BarON-->
+    <style name="BarON" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--End BarOn-->
+    <!--Maintenance And Network-->
+    <style name="darGreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorDarGreen</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorDarGreen</item>
+        <item name="colorPrimaryDark">@color/colorDarGreen</item>
+        <item name="colorAccent">@color/colorDarGreen</item>
+    </style>
+
+    <!--End Maintenance and Network-->
+    <!--Material Components-->
+
+    <!--End Material Components-->
+    <!---->
+    <style name="BottomSheetBank" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!---->
+</resources>

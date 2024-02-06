@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBgHome"
+    tools:context=".Class.SelectAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/titleSelect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:text="@string/select_bank"
+                        android:textColor="@color/colorDarkGrey"
+                        android:textSize="30sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.501"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/columnOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/titleSelect">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankOne"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/bdone"
+                            app:layout_constraintHeight_percent="0.30"
+                            app:layout_constraintWidth_percent="0.30" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankTwo"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdtwo" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankThree"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdthree" />
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/columnTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/columnOne">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankFour"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdfour" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankFive"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdfive" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankSix"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdsix" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/columnThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/columnTwo">
+
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/bankSeven"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdseven" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/bankEight"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="5dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdeight" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/BankNine"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdnine" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/columnFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/columnThree">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/OthersBank"
+                            android:layout_width="97dp"
+                            android:layout_height="97dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginHorizontal="2dp"
+                            android:contentDescription="@string/imageaccount"
+                            android:src="@drawable/bdothers" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bot_nav_add_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_m"
+                android:paddingTop="10dp"
+                app:elevation="0dp"
+                app:labelVisibilityMode="unlabeled"
+                app:menu="@menu/add_navigation_menu" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

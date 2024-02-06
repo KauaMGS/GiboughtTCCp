@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    android:gravity="center|center_vertical|center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/offline"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/colorDarGreen"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/internet_check"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/colorSelect"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/colorDarGreen"
+        android:background="@drawable/retry_shape"
+        android:textColor="@color/colorWhite"
+        android:text="@string/close"
+        />
+
+</LinearLayout>

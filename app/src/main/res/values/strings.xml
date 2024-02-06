@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Gibought</string>
+    <!--Banner-->
+    <string name="about_app_title">O que é o app?</string>
+    <string name="about_app_text">
+       Gibought é um organizador de dinheiro, no qual você pode gerenciar facilmente suas despesas e ganhos…
+    </string>
+    <string name="features_app_title">O que o Gibought faz?:</string>
+    <string name="features_app_text">
+         &#160;- Faz a média semanal, mensal e anual do seu dinheiro\n
+         - Gera graficos de suas adições de ganhos e gastos\n
+         - Facilita a Organização das contas criadas pelo usuário
+    </string>
+    <string name="deluxe_app_title">Beneficios da Versão Deluxe:</string>
+    <string name="deluxe_app_text">
+         &#160;- Remover anuncios\n
+         - Libera os graficos Mensal e anual\n
+         - retira limites da conta \n
+         - adiciona opção gerar excel
+    </string>
+    <string name="benefits_app_title">Vantagens do app:</string>
+    <string name="benefits_app_text">
+        Utilizando o Gibought você terá um controle detalhado de seus ganhos e gastos
+        através de ilustrações e gráficos, o que irá ajudar na sua administração do
+        seu dinheiro.
+    </string>
+    <string name="skip">Pular ></string>
+    <string name="next">Prox</string>
+    <string name="finish">Iniciar</string>
+    <!--End Banner-->
+    <!--Login And Register -->
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="con_password">Confirmar Senha</string>
+    <string name="remember">Remember</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Esqueceu a senha</string>
+    <string name="sign_up">Registrar</string>
+    <string name="sign_in">Entrar</string>
+    <string name="register">Registrar</string>
+    <string name="name">Nome</string>
+    <string name="back">Voltar</string>
+    <!--End Login and Register-->
+    <string name="rs">R$</string>
+    <string name="money">00,00</string>
+    <string name="moneyCard">0,00</string>
+    <string name="total_balance">Dinheiro total</string>
+    <string name="earnings">Ganhos</string>
+    <string name="spd">Gastos</string>
+    <string name="username">Nome de Usuário</string>
+    <string name="email_profile">Email do perfil</string>
+    <string name="my_profile">Meu Perfil</string>
+    <string name="notifications">Notificações</string>
+    <string name="logout">Sair</string>
+    <string name="select_act">Nenhuma conta selecionada</string>
+    <string name="goal">Meta</string>
+    <string name="language">Idioma: Português</string>
+    <string name="help">ajuda</string>
+    <string name="version_type">Versão: Normal</string>
+    <string name="none">Nenhuma</string>
+    <string name="test">test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="account">Conta</string>
+    <string name="not_have_goal">Não há nenhuma Meta</string>
+    <string name="recently_added">Recentemente Adicionado</string>
+    <string name="add_buttonadd">+</string>
+    <string name="add_buttonspd">–</string>
+    <string name="imageaccount">ImageAccount</string>
+    <string name="imagegoal">ImageGoal</string>
+    <string name="null_money">00,00</string>
+    <string name="null_bk">noneBank</string>
+    <string name="brl">BRL</string>
+    <string name="add_btconfirm">✔</string>
+    <string name="select_bank">Selecione seu banco</string>
+    <string name="add_info">Adicionar informação</string>
+    <string name="add_name">Adicionar nome da conta</string>
+    <string name="add_act">Adicionar Conta</string>
+    <string name="value">Valor</string>
+    <string name="add_value">Adicione o valor que você tem em sua conta</string>
+    <string name="type_act">Tipo</string>
+    <string name="search_card">Digite o Nome da Conta</string>
+    <string name="crt_account">Corrente</string>
+    <string name="svg_account">Poupança</string>
+    <string name="slc_anAccount">Você precisa selecionar uma conta para começar</string>
+    <string name="no_results_found">Nenhum resultado encontrado</string>
+    <string name="edit_info_card">Editar valores da Conta</string>
+    <string name="offline">OFFLINE</string>
+    <string name="internet_check">Verifique sua conexão de internet para continuar usando o aplicativo</string>
+    <string name="retry">Recarregar</string>
+    <string name="maintenance">Manutenção</string>
+    <string name="info_maintenance">Estamos atualmente sob manutenção, tente novamente mais tarde</string>
+    <string name="add_act_started">Adicione uma conta para começar!</string>
+    <string name="add_goal">Adicionar uma meta</string>
+    <string name="add_earnings">Adicionar Ganhos</string>
+    <string name="add_spd">Adicionar Gastos</string>
+    <string name="details">Detalhes</string>
+    <string name="splashscreenimage">SplashScreenImage</string>
+    <string name="cleanTxt">C</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="dot">.</string>
+    <string name="number_0">0</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="spending_earnings">Gast/Ganh</string>
+    <string name="close">fechar</string>
+    <string name="earn">Ganho</string>
+    <string name="earn_spen">F.B(Ganh/Gast)</string>
+    <string name="spen">Gasto</string>
+    <string name="grafico">Grafico:</string>
+    <string name="gerar">Gerar</string>
+    <string name="dados_semanais">Dados Semanais</string>
+    <string name="seg">seg</string>
+    <!--ArrayBankAccount-->
+    <string-array name="type_account">
+        <item name="current">Corrente</item>
+        <item name="saving">Poupança</item>
+    </string-array>
+    <string-array name="type_goalsbank">
+        <item name="all">Conta</item>
+        <item name="acEsp">Meta</item>
+    </string-array>
+    <!--Array goals-->
+    <string-array name="type_goals">
+        <item name="all">Todas</item>
+        <item name="acEsp">conta especifica</item>
+        <item name="AcSelect">Conta Selecionada</item>
+        <item name="noAct">Sem conta</item>
+    </string-array>
+    <string-array name="type_goals1">
+        <item name="all">ALL</item>
+        <item name="acEsp">conta especifica</item>
+        <item name="noAct">Sem conta</item>
+    </string-array>
+    <!--ArrayGraphs-->
+    <string-array name="type_graphs_adf">
+        <item name="none">Nenhum</item>
+        <item name="week">Semanal</item>
+        <item name="month">Mensal</item>
+        <item name="year" tools:ignore="Typos">Anual</item>
+    </string-array>
+    <!--ArrayGraphs-->
+    <string-array name="type_graphs">
+        <item name="week">Nenhum</item>
+        <item name="month">Mensal</item>
+    </string-array>
+</resources>

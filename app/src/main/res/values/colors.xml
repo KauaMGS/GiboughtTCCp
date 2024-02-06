@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00d6b3</color>
+    <color name="colorPrima">#0DD3B1</color>
+    <color name="colorPrimaryDark">#00d6b3</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorRedLight">#C30C0C</color>
+    <color name="colorSelectNo">#fff</color>
+    <color name="colorSelect">#202020</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBgHome">#eff0f4</color>
+    <color name="colorTextSecundary">#1C1C1C</color>
+    <color name="colorTransparentWhite">#A1FFFFFF</color>
+    <color name="colorBackgroundRetry">#7DADC3</color>
+    <color name="colorWhiteGray">#FFFDFD</color>
+    <color name="colorSubGray">#646464</color>
+    <color name="colorDarkGreen">#01b497</color>
+    <color name="colorDarGreen">#038771</color>
+    <color name="colorDarkGreenAct">#078A75</color>
+    <color name="colorDarkRedAct">#8A0707</color>
+    <color name="colorDGreen">#03877C</color>
+    <color name="colorDarRed">#870303</color>
+    <color name="colorDarGreenLight">#0EA58C</color>
+    <color name="colorGreenLight">#0EA539</color>
+    <color name="colorBackgroundBanner">#FFFFFF</color>
+    <color name="colorIndicatorIn">#CB03DAC5</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorOff">#494646</color>
+    <color name="colorOn">#038771</color>
+    <color name="colorDarkGrey">#424040</color>
+    <color name="colorGrey">#ececec</color>
+    <color name="colorMedGrey">#D1D1D1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorFooter">#2B373A</color>
+
+</resources>

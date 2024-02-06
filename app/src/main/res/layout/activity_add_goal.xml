@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bank_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Utils.AddGoalActivity"
+    android:orientation="vertical">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottom_sheet_background"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleBottomSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:text="Adicionar Meta"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/name"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleBottomSheet"
+            />
+
+        <EditText
+            android:id="@+id/nameInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:maxLength="80"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="@string/add_name"
+            android:maxLines="1"
+            android:textColor="@color/colorOff"
+            android:textColorHint="@color/colorOff"
+            android:textSize="22sp"
+            android:inputType="textVisiblePassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bankName"
+            tools:ignore="Autofill" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bankValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:text="@string/value"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameInfo"
+            />
+        <EditText
+            android:id="@+id/valueInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:maxLength="15"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="@string/add_value"
+            android:maxLines="1"
+            android:textColor="@color/colorOff"
+            android:textColorHint="@color/colorOff"
+            android:textSize="22sp"
+            android:text="@string/moneyCard"
+            android:inputType="number"
+            android:digits="0123456789.,"
+            android:imeOptions="actionDone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bankValue"
+            tools:ignore="Autofill" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/eatSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/valueInfo">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:id="@+id/ttestee"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Condição:"
+                        android:gravity="start"
+                        android:textColor="@color/colorDarkGrey"
+                        android:textSize="15sp" />
+                    <Spinner
+                        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                        android:id="@+id/spinnerCond"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:backgroundTint="@color/colorDarkGrey"
+                        android:paddingEnd="35dp"
+                        android:textAlignment="viewEnd"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="8dp"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+            <LinearLayout
+                android:id="@+id/selectedAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/selectActTXT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Itau"
+                    android:gravity="center"
+                    android:textColor="@color/colorDarkGrey"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/specificAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Conta:"
+                        android:gravity="start"
+                        android:textColor="@color/colorDarkGrey"
+                        android:textSize="15sp" />
+                    <Spinner
+                        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                        android:id="@+id/spinnerAct"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:backgroundTint="@color/colorDarkGrey"
+                        android:paddingEnd="35dp"
+                        android:textAlignment="viewEnd"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="8dp"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/BankOne"
+                    android:layout_width="97dp"
+                    android:layout_height="97dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="25dp"
+                    app:layout_constraintHeight_percent="0.30"
+                    app:layout_constraintWidth_percent="0.30"
+                    android:layout_marginHorizontal="2dp"
+                    android:contentDescription="@string/imageaccount"
+                    android:src="@drawable/bdone"
+                    />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        <ImageButton
+            android:id="@+id/btnConAccount"
+            android:layout_width="59dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_confirm"
+            android:tint="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eatSpinner"
+            app:layout_constraintVertical_bias="0.401"
+            tools:ignore="UseAppTint" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/imgId"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/segoeui"
+            android:text=""
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/valueInfo" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bot_nav_add_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_m"
+        app:elevation="0dp"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConAccount"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/add_navigation_menu" />
+</LinearLayout>

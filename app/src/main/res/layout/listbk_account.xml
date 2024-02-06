@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lba"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/current_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorBackgroundBanner"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp"
+                >
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imageBankItem"
+                    android:layout_width="95dp"
+                    android:layout_height="79dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/imageaccount"
+                    android:src="@drawable/nonebank"
+                    app:layout_constraintBottom_toBottomOf="@+id/etactNameItem"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etactNameItem"
+                    app:layout_constraintVertical_bias="0.65" />
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/editCard"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:contentDescription="@string/imageaccount"
+                    android:src="@drawable/ic_edit_add"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etactNameItem"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeWidth="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.525"
+                    app:layout_constraintStart_toEndOf="@+id/imageBankItem"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.392">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/accountNameItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_marginStart="10dp"
+                        android:focusable="false"
+                        android:text="@string/account"
+                        android:textColor="@color/colorFooter"
+                        android:textSize="30sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etcValueItem"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0dp"
+                    app:boxStrokeWidth="0dp"
+                    android:layout_marginBottom="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/accountTypeItem"
+                    app:layout_constraintHorizontal_bias="0.153"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etactNameItem">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/accountValueItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:focusable="false"
+                        android:text="@string/money"
+                        android:textColor="@color/colorFooter"
+                        android:textSize="30sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/accountTypeItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/svg_account"
+                    android:textColor="@color/colorFooter"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/etcValueItem"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/Id_card"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/text_margin"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

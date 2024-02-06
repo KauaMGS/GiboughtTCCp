@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_home"
+        android:enabled="true"
+        android:icon="@drawable/select_home"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/app_graphics"
+        android:icon="@drawable/select_graphics"
+        android:enabled="true"
+        tools:ignore="MenuTitle"
+        />
+
+
+    <item
+        android:id="@+id/app_add"
+        android:title="" />
+
+    <item
+        android:id="@+id/app_notif"
+        android:icon="@drawable/select_ic_notifications"
+        android:enabled="true"
+        tools:ignore="MenuTitle"
+        />
+    <item
+        android:id="@+id/app_engine"
+        android:enabled="true"
+        android:icon="@drawable/select_engine"
+        tools:ignore="MenuTitle" />
+</menu>
